@@ -1,0 +1,12 @@
+export { default as Search } from "../../../public/search.svg";
+export { default as Email } from "../../../public/email.svg";
+export { default as Arrow } from "../../../public/arrow.svg";
+export { default as Control } from "../../../public/control.svg";
+export { default as Logo } from "../../../public/logo.svg";
+export { default as Logout } from "../../../public/logout.svg";
+export { default as Home } from "../../../public/home.svg";
+export { default as Help } from "../../../public/help.svg";
+export { default as Shop } from "../../../public/Shop.svg";
+export { default as Terms } from "../../../public/terms.svg";
+export { default as Analyze } from "../../../public/analyze.svg";
+export { default as Wallet } from "../../../public/wallet.svg";
