@@ -5,12 +5,12 @@ const Category = () => {
   }
   const categories: CategoryProps[] = [
     { id: 1, title: "music" },
-    { id: 1, title: "sport" },
-    { id: 1, title: "art" },
-    { id: 1, title: "photography" },
-    { id: 1, title: "trading card" },
-    { id: 1, title: "virtual world" },
-    { id: 1, title: "videos" },
+    { id: 2, title: "sport" },
+    { id: 3, title: "art" },
+    { id: 4, title: "photography" },
+    { id: 5, title: "trading card" },
+    { id: 6, title: "virtual world" },
+    { id: 7, title: "videos" },
   ];
 
   return (

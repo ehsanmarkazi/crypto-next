@@ -21,8 +21,17 @@ const TopGlobalCollectionModule = () => {
       percent: "+88.24%",
     },
     {
-      id: 1,
+      id: 2,
       creator_image: "/profile9.jpg",
+      score: 6,
+      title: " Golden Hope Planet v5",
+      category: " Art,Collections",
+      price: " 924,89 ETH",
+      percent: "+88.24%",
+    },
+    {
+      id: 3,
+      creator_image: "/profile4.jpg",
       score: 6,
       title: " Golden Hope Planet v5",
       category: " Art,Collections",
@@ -34,7 +43,10 @@ const TopGlobalCollectionModule = () => {
   return (
     <>
       {items.map((item: ItemsProps) => (
-        <div className="flex flex-row justify-between items-center w-[95%] rounded-xl py-2 px-2">
+        <div
+          key={item.id}
+          className="flex flex-row justify-between items-center w-[95%] rounded-xl py-2 px-2"
+        >
           <div className="w-fit h-fit relative ">
             <Image
               src={item.creator_image}
@@ -70,7 +82,7 @@ const TopGlobalCollectionModule = () => {
               <p className="text-gray-100 font-normal text-[10px]">
                 {item.price}
               </p>
-              <p className="text-green-400 text-[8px]">{item.percent}</p>
+              <p className="text-green-400 text-[10px]">{item.percent}</p>
             </div>
           </div>
         </div>

@@ -16,13 +16,13 @@ const MyTopItems = () => {
       price: "  924,89 ETH",
     },
     {
-      id: 1,
+      id: 2,
       image: "/ntf2.jpg",
       title: " Golden Hope Planet v5",
       price: "  924,89 ETH",
     },
     {
-      id: 1,
+      id: 3,
       image: "/nft3.jpg",
       title: " Golden Hope Planet v5",
       price: "  924,89 ETH",
@@ -32,7 +32,10 @@ const MyTopItems = () => {
   return (
     <>
       {items.map((item: ItemsProps) => (
-        <div className="flex flex-row justify-between items-center w-[95%] bg-gray-700 rounded-xl py-2 px-2">
+        <div
+          key={item.id}
+          className="flex flex-row justify-between items-center w-[95%] bg-gray-700 rounded-xl py-2 px-2"
+        >
           <Image
             src={item.image}
             width={500}

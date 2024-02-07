@@ -3,7 +3,7 @@ import { Email, Search } from "../../svg";
 
 const Header = () => {
   return (
-    <div className=" flex flex-row justify-start items-center gap-3 w-full px-1 h-[75px] ">
+    <div className=" flex flex-row justify-center items-center gap-3 w-full px-1 h-[75px] ">
       <div className="relative  h-[40px] w-fit mx-1">
         <input
           className=" w-full h-[35px] rounded-xl px-1 bg-gray-700 text-sm"

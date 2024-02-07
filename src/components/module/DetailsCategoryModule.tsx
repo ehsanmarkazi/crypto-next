@@ -21,7 +21,7 @@ const DetailsCategory = () => {
       ending_time: "10H 43m 27s",
     },
     {
-      id: 1,
+      id: 2,
       image: "/bids2.jpg",
       title: " Xu Gaming Mind 003X",
       desc: "Truga Self 03X",
@@ -30,7 +30,7 @@ const DetailsCategory = () => {
       ending_time: "10H 43m 27s",
     },
     {
-      id: 1,
+      id: 3,
       image: "/bids3.jpg",
       title: " Xu Gaming Mind 003X",
       desc: "Truga Self 03X",
@@ -39,7 +39,16 @@ const DetailsCategory = () => {
       ending_time: "10H 43m 27s",
     },
     {
-      id: 1,
+      id: 4,
+      image: "/bids4.jpg",
+      title: " Xu Gaming Mind 003X",
+      desc: "Truga Self 03X",
+      creator_image: "/profile10.jpg",
+      current_bids: 0.256,
+      ending_time: "10H 43m 27s",
+    },
+    {
+      id: 5,
       image: "/bids4.jpg",
       title: " Xu Gaming Mind 003X",
       desc: "Truga Self 03X",
@@ -54,7 +63,7 @@ const DetailsCategory = () => {
       {categories.map((item: DetailsCategoryProps) => (
         <div
           key={item.id}
-          className="max-w-[250px] min-w-[230px] h-[275px] bg-gray-800 rounded-xl flex flex-col justify-between pb-3 items-center"
+          className="max-w-[250px] min-w-[210px] h-[275px] bg-gray-800 rounded-xl flex flex-col justify-between pb-3 items-center"
         >
           <Image
             className="w-full h-[50%] rounded-t-xl rounded-b-md object-cover"
